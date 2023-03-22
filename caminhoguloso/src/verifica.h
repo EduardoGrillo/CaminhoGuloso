@@ -15,24 +15,41 @@ void verifica(int N, int**m){
         if(i == N-1){
             j++;
         } else if(j == 0){
-            if(m[i+1][j] >= m[i][j+1]){
+            if(m[i+1][j] >= m[i][j+1] && m[i+1][j] > m[i+1][j+1]){
                 i++;
-            } else if(m[i][j+1] > m[i+1][j]){
+            } else if(m[i][j+1] > m[i+1][j] && m[i][j+1] > m[i+1][j+1]){
+                j++;
+            } else {
+                i++;
                 j++;
             }
         } else if(j == N-1){
-            if(m[i+1][j] >= m[i][j-1]){
+            if(m[i+1][j] >= m[i][j-1] && m[i+1][j] > m[i+1][j-1]){
                 i++;
-            } else if(m[i][j-1] > m[i+1][j]){
+            } else if(m[i][j-1] > m[i+1][j] && m[i][j-1] > m[i+1][j-1]){
                 j--;
-            } 
+            } else {
+                i++;
+                j--;
+            }
         } else {
-            if(m[i+1][j] >= m[i][j+1] && m[i+1][j] >= m[i][j-1]){
+            if(m[i+1][j] >= m[i][j+1] && m[i+1][j] >= m[i][j-1] &&
+               m[i+1][j] >= m[i+1][j+1] && m[i+1][j] >= m[i+1][j-1]){
                 i++;
-            } else if(m[i][j+1] > m[i+1][j] && m[i][j+1] > m[i][j-1]){
+            } else if(m[i][j+1] > m[i+1][j] && m[i][j+1] > m[i][j-1] &&
+                      m[i][j+1] > m[i+1][j+1] && m[i+1][j+1] > m[i][j-1]){
                 j++;
-            } else if(m[i][j-1] > m[i+1][j] && m[i][j-1] > m[i][j+1]){
+            } else if(m[i][j-1] > m[i+1][j] && m[i][j-1] > m[i][j+1] &&
+                      m[i][j-1] > m[i+1][j+1] && m[i][j-1] > m[i+1][j-1]){
                 j--;
+            } else {
+                if(m[i+1][j+1] >= m[i+1][j-1]){
+                    i++;
+                    j++;
+                } else {
+                    i++;
+                    j--;
+                }
             }
         } 
         soma += m[i][j];
