@@ -18,6 +18,18 @@ O objetivo do trabalho é caminhar por um conjunto de matrizes fornecidas como e
 
 # Algoritmo Guloso
 
+O algoritmo guloso consiste na ideia de percorrer uma matriz NxN. Ou seja, buscando sempre encontrar o maior valor dentro dessa matriz, sem voltar o caminho já percorrido.
+
+# Input e Output
+
+```INPUT```
+
+A entrada do código consiste em matrizes do tamanho 4x4, encontradas dentro da pasta ```matriz```. 
+
+```OUTPUT```
+
+O resultado esperado é de que o caminho seja percorrido, de forma onde é feita a leitura da matriz, ela é tokenizada e, logo após, ela cai dentro da condição de verificação.
+
 
 # Compilação e Execução
 
