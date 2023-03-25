@@ -24,11 +24,15 @@ O algoritmo guloso consiste na ideia de percorrer uma matriz NxN. Ou seja, busca
 
 ```INPUT```
 
-A entrada do código consiste em matrizes do tamanho 4x4, encontradas dentro da pasta ```matriz```. 
+A entrada do código consiste em matrizes do tamanho 4x4 que serão lidas e, consequentemente, serão usadas para fazer a verificação do algoritmo guloso.
+
+<p align="center"><img src="images/matrize.png" style="width:20%;"></p>
 
 ```OUTPUT```
 
 O resultado esperado é de que o caminho seja percorrido, de forma onde é feita a leitura da matriz, ela é tokenizada e, logo após, ela cai dentro da condição de verificação.
+
+<p align="center"><img src="images/resultado.png" style="width:20%;"></p>
 
 
 # Compilação e Execução
