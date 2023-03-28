@@ -20,7 +20,7 @@ O objetivo do trabalho é caminhar por um conjunto de matrizes fornecidas como e
 
 Um algoritmo gulos é um tipo de algoritmo que busca encontrar a solução ótima de um problema, fazendo sempre a escolha localmente ótima em cada etapa da solução. Ou seja, em cada passo do algoritmo, ele escolhe a opção mais vantajosa ou a melhor dentre as disponíveis no momento, sem levar em conta o futuro.
 
-No trabalho em si, o algoritmo guloso é utilizado para fazer a verificação de qual lado o algoritmo deve percorrer. Ou seja, segue a ideia de percorrer uma matriz de tamanho NxN a fim de caminhar a matriz, sempre priorizando os maiores valores obtidos, sem voltar ao caminho percorrido.
+No trabalho em si, o algoritmo guloso é utilizado para fazer a verificação de qual lado o algoritmo deve percorrer. Ou seja, segue a ideia de percorrer uma matriz de tamanho NxN a fim de caminhar sempre priorizando os maiores valores obtidos, sem voltar ao caminho percorrido.
 
 </p>
 
