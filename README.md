@@ -36,7 +36,8 @@ No trabalho em si, o algoritmo guloso é utilizado para fazer a verificação de
 
 ```INPUT```
 
-A entrada do código consiste em matrizes do tamanho 7x7 que serão lidas e, consequentemente, serão usadas para fazer a verificação do algoritmo guloso.
+O input do código consiste em fazer a leitura da matriz e, em seguida, fazer a verificação do algoritmo para percorrer o caminho.
+A leitura do arquivo consiste em caso o arquivo esteja vazio, irá aparecer uma mensagem como "Não foi possível abrir o arquivo!". Após essa verificação, o algoritmo cairá numa condição de tokenizar. Ou seja, quando entrar uma matriz aleatória, ele irá armazenar essa matriz e fazer a organização dela, com sua quebra de linhas e colunas.
 
 </p>
 
@@ -50,7 +51,8 @@ A entrada do código consiste em matrizes do tamanho 7x7 que serão lidas e, con
 
 ```OUTPUT```
 
-O resultado esperado é de que o caminho seja percorrido, de forma onde é feita a leitura da matriz, ela é tokenizada e, logo após, ela cai dentro da condição de verificação.
+O output é esperado como resultado o caminho percorrido, onde a cada avanço do algoritmo, seja substituído por ```-1```.
+A verficação consiste em várias iterações da qual o algoritmo irá percorrer. Se o algoritmo vai descer ou ir para o lado, incremente i++. Caso o algoritmo queira ir para a esquerda ou direita, incremente j++. Para percorrer o algoritmo em diagonal, é preciso fazer a verificação de que caso o maior algoritmo não esteja nem na direita ou abaixo dele, ele seguirá em frente.
 
 </p>
 
