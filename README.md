@@ -38,13 +38,29 @@ No trabalho em si, o algoritmo guloso é utilizado para fazer a verificação de
 
 A entrada do código consiste em matrizes do tamanho 7x7 que serão lidas e, consequentemente, serão usadas para fazer a verificação do algoritmo guloso.
 
-<p align="center"><img src="images/matrizes.png" style="width:40%;"></p>
+</p>
+
+<p align="center">
+<img src="images/matrizes.png" width="400"/>
+</p>
+<p align="center">
+<em>Imagem 2: Matrizes utilizadas como exemplo. </em>
+
+</p>
 
 ```OUTPUT```
 
 O resultado esperado é de que o caminho seja percorrido, de forma onde é feita a leitura da matriz, ela é tokenizada e, logo após, ela cai dentro da condição de verificação.
 
-<p align="center"><img src="images/matriz1.png" style="width:40%;"></p>
+</p>
+
+<p align="center">
+<img src="images/matriz1.png" width="400"/>
+</p>
+<p align="center">
+<em>Imagem 3: Resultado da matriz 1. </em>
+
+</p>
 
 
 # Compilação e Execução
