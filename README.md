@@ -25,7 +25,7 @@ No trabalho em si, o algoritmo guloso é utilizado para fazer a verificação de
 </p>
 
 <p align="center">
-<img src="imgs/esquema.gif" width="600"/>
+<img src="images/esquema.gif" width="600"/>
 </p>
 <p align="center">
 <em>Imagem 1: Esquema de verificação do algoritmo guloso. </em>
