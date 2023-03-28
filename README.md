@@ -18,21 +18,33 @@ O objetivo do trabalho é caminhar por um conjunto de matrizes fornecidas como e
 
 # Algoritmo Guloso
 
-O algoritmo guloso consiste na ideia de percorrer uma matriz NxN. Ou seja, buscando sempre encontrar o maior valor dentro dessa matriz, sem voltar o caminho já percorrido.
+Um algoritmo gulos é um tipo de algoritmo que busca encontrar a solução ótima de um problema, fazendo sempre a escolha localmente ótima em cada etapa da solução. Ou seja, em cada passo do algoritmo, ele escolhe a opção mais vantajosa ou a melhor dentre as disponíveis no momento, sem levar em conta o futuro.
+
+No trabalho em si, o algoritmo guloso é utilizado para fazer a verificação de qual lado o algoritmo deve percorrer. Ou seja, segue a ideia de percorrer uma matriz de tamanho NxN a fim de caminhar a matriz, sempre priorizando os maiores valores obtidos, sem voltar ao caminho percorrido.
+
+</p>
+
+<p align="center">
+<img src="imgs/esquema.png" width="600"/>
+</p>
+<p align="center">
+<em>Imagem 1: Esquema de verificação do algoritmo guloso. </em>
+
+</p>
 
 # Input e Output
 
 ```INPUT```
 
-A entrada do código consiste em matrizes do tamanho 4x4 que serão lidas e, consequentemente, serão usadas para fazer a verificação do algoritmo guloso.
+A entrada do código consiste em matrizes do tamanho 7x7 que serão lidas e, consequentemente, serão usadas para fazer a verificação do algoritmo guloso.
 
-<p align="center"><img src="images/matrize.png" style="width:20%;"></p>
+<p align="center"><img src="images/matrizes.png" style="width:40%;"></p>
 
 ```OUTPUT```
 
 O resultado esperado é de que o caminho seja percorrido, de forma onde é feita a leitura da matriz, ela é tokenizada e, logo após, ela cai dentro da condição de verificação.
 
-<p align="center"><img src="images/resultado.png" style="width:20%;"></p>
+<p align="center"><img src="images/matriz1.png" style="width:40%;"></p>
 
 
 # Compilação e Execução
